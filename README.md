@@ -1,6 +1,7 @@
-# Readium Help
+# Grobskizziert Help
 
 This is a custom theme for Ghost (https://en.ghost.org).
+It is based on the original theme https://github.com/starburst1977/Readium. Thanks to starburst1977.
 
 1. Copy the contents of the .zip file into /content/themes/. 
 
