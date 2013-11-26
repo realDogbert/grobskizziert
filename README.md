@@ -1,12 +1,10 @@
-# Grobskizziert Help
+# Grobskizziert Hilfe
 
-This is a custom theme for Ghost (https://en.ghost.org).
-It is based on the original theme https://github.com/starburst1977/Readium. Thanks to starburst1977.
+Grobskizziert ist ein Theme für Ghost (https://ghost.org).
+Es basiert auf dem Theme https://github.com/starburst1977/Readium . Danke hierfür an startburst1977.
 
-1. Copy the contents of the .zip file into /content/themes/. 
-
-2. You need to restart your Ghost instance. After that you can switch themes inside your Ghost admin (http://your.domain.com/ghost/settings/general/). Scroll down and choose "Readium".
-
-3. Now you can customize your logo, langing page image, as well as user images and texts to fit the theme.
-
-4. Have fun.
+Um das Theme zu nutzen müssen folgende Schritte durchgeführt werden:
+1. Der Inhalt des ZIP Files muss in den Ordner /content/themes/ kopiert werden.
+2. Jetzt muss Ghost neu gestartet werden. Danach kann das Theme grobskizziert ausgewählt werden.
+3. Jetzt können noch eingen Einstellungen (wie z.B. Logo oder Startbild) angepasst werden.
+4. Und das wars auch. Einfach die Startseite aufrufen und loslegen.
