@@ -45,11 +45,11 @@
                 <h2 class="contentlist__article__headline post-title"><a href="{{url}}">{{{title}}}</a></h2>
             </header>
             <section class="contentlist__article__excerpt post-excerpt">
-                <p>{{excerpt characters="20"}}&hellip;</p>
+                <p>{{excerpt characters="250"}}&hellip;</p>
             </section>
             <span class="contentlist__article__meta post-meta">
-                <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time> ·
-                {{#if tags}}{{author.name}} on {{tags}}{{/if}}
+                <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time>
+                {{#if tags}} · {{author.name}} in {{tags}}{{/if}}
             </span>
         </article>
     
