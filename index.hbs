@@ -37,7 +37,7 @@
         
         <article class="contentlist__article {{post_class}}">
             <header class="post-header">
-                <div class="contentlist__article__userimage user-image" style="background-image: url({{author.image}})"></div>
+                <!-- <div class="contentlist__article__userimage user-image" style="background-image: url({{author.image}})"></div> -->
                 <h2 class="contentlist__article__headline post-title"><a href="{{url}}">{{{title}}}</a></h2>
             </header>
             <section class="contentlist__article__excerpt post-excerpt">
@@ -45,7 +45,7 @@
             </section>
             <span class="contentlist__article__meta post-meta">
                 <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time>
-                {{#if tags}} · {{author.name}} in {{tags}}{{/if}}
+                {{#if tags}} · {{author.name}} in test {{tags}}{{/if}}
             </span>
         </article>
     
