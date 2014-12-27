@@ -4,24 +4,22 @@
     the {body} of the default.hbs template, which contains our header/footer. }}
 
 
+{{! Everything inside the #post tags pulls data from the post }}
+{{#post}}
+
+<header class="main-header post-head {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
+    <nav class="main-nav {{#if image}}overlay{{/if}} clearfix">
+        <a class="back-button" href="{{@blog.url}}">Home</a>
+    </nav>
+</header>
 
 <main class="content contentpost" role="main">
 
-    {{! Each post has the blog logo at the top, with a link back to the home page }}
-    <header class="post-header contentpost__logo {{#if @blog.logo}}contentpost__logo__img_black_background{{/if}}">
-        <a id="blog-logo" href="/">
-            {{#if @blog.logo}}
-                <img src="{{@blog.logo}}" alt="Blog Logo" />
-            {{else}}
-                {{@blog.title}}
-            {{/if}}
-        </a>
-    </header>
+
 
     <article class="contentpost__inner {{post_class}}">
 
-        {{! Everything inside the #post tags pulls data from the post }}
-        {{#post}}
+
 
         {{! Everything below outputs content of the the post which has been published }}
 

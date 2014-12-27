@@ -1,4 +1,22 @@
 {
-  "name": "grob skizziert",
-  "version": "0.1.1"
+  "name": "grobskizziert",
+  "version": "1.1.0",
+  "description": "ghost theme",
+  "main": "Gruntfile.js",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-less": "~1.0.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "jit-grunt": "~0.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/realDogbert/grobskizziert.git"
+  },
+  "author": "Frank von Eitzen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/realDogbert/grobskizziert/issues"
+  },
+  "homepage": "https://github.com/realDogbert/grobskizziert"
 }
